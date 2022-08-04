@@ -11,8 +11,9 @@ lto = true
 teloxide = { version = "0.10", features = ["macros", "auto-send"] }
 log = "0.4"
 pretty_env_logger = "0.4"
-tokio = { version =  "1.20", features = ["rt-multi-thread", "macros"] }
+tokio = { version =  "1.20", features = ["rt-multi-thread", "macros", "process"] }
 image = "0.24"
 anyhow = "1"
 webp = "0.2"
 bytes = "1"
+tempfile = "3"
